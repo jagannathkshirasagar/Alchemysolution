@@ -29,7 +29,8 @@ const Landingpage = () => {
     <a href='' className='btn navbtn1 m-2 text-center'>Find Amazing Talent</a>
     <a href='' className='btn navbtn2 m-2'>Find Your Dream Job</a>
 </div>
-
+       
+       
       </div>
     </div>
   </div>
