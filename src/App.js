@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Landingpage from './Pages/Landingpage';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import StaffAgumentation from './Pages/StaffAgumentation';
+import Navbar from './Components/Navbar';
+import DirectPlacements from './Pages/DirectPlacements';
+import TalentDevelopment from './Pages/TalentDevelopment';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+   <Navbar/>
+      <Routes>
+        <Route path="/" element={ <Landingpage/>}/>
+          
+          <Route path="/staff" element={<StaffAgumentation/>}/>
+          <Route path="/direct-hire-placement" element={<DirectPlacements />} />
+          <Route path="/talent-development-and-transformation" element={<TalentDevelopment/>} />
+        
+      </Routes>
+    </Router>
+     
     </div>
   );
 }

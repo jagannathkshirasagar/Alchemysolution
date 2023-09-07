@@ -1,0 +1,10 @@
+.slider{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.slider .owel-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 1;
+    background-color: #ccc;
+}

@@ -1,0 +1,93 @@
+.talent_banner .banner_overlay ::before{
+    content: " ";
+    /* background-color:#000 ; */
+    opacity:.6 ;
+    top:0 ;
+    left:0 ;
+    right:0 ;
+    width:100% ;
+    height:100% ;
+    position: absolute;
+}
+.banner_content h2{
+    font-size:50px ; 
+    font-weight:750 ;
+    line-height:60px ;
+    /* max-width: 950px; */
+    padding-bottom: 16px;
+}
+
+
+
+.master_craft h2{
+color: #222;
+text-align: unset;
+padding-bottom: 16px;
+}
+.master_craft p{
+    color:#4a4a4a ;
+    text-align:unset ;
+    padding-bottom:50px ;
+    max-width:572px ;
+    margin: unset;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+.Talent_skills{
+    background: #004a97;
+    padding: 90px;
+}
+.Talent_skills h2{
+    color:#fff ;
+    font-weight: 750; 
+    padding-bottom:24px ;
+    max-width:392px ;
+    line-height: 120%;
+}
+.Talent_skills p{
+    color:#fff ;
+    font-size: 18px;
+    font-weight: 400;
+    max-width:392px ;
+    text-align: justify;
+}
+.Talent_skills img{
+    margin-bottom: -250px;
+}
+.professional_slick h2{
+    color: #0d0d0d;
+    font-size: 48px;
+    padding-bottom: 16px;
+    max-width: 432px;
+}
+.professional_slick p{
+    color: #404040;
+    margin: unset;
+    max-width: 431px;
+    text-align: justify;
+    font-weight: 400;
+}
+.finance_staff{
+    font-weight: 700;
+    font-size:32px ;
+    line-height:120% ;
+      color:#222 ;
+    text-align: start;
+    padding: 20px 0 8px;
+    /* padding-bottom:30px ; */
+    max-width: 490px;
+   
+  }
+  .faster_staff{
+    font-weight: 400;
+    font-size:18px ;
+    line-height:150% ;
+    /* color: #e8e8e8; */
+    color: #4a4a4a;
+    text-align: justify;
+  
+    /* padding: 20px 0 8px; */
+    /* padding-bottom:30px ; */
+    max-width: 490px;
+  }

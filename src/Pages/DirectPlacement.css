@@ -1,0 +1,63 @@
+.lets_face p{
+    font-size:18px ;
+    font-weight:400 ;
+    color: #4a4a4a;
+    line-height: 150%;
+    max-width: 450px;
+    padding-bottom: 24px;
+    text-align: justify;
+}
+.lets_face h6{
+    font-size:32px ;
+    font-weight:700 ;
+    color: #222;
+    line-height: 120%;
+    max-width: 450px;
+    padding-bottom: 8px;
+    
+}
+.why_clients{
+    background: #004a97;
+    padding: 40px 0  300px;
+}
+
+.why_clients h2{
+    font-size: 48px;
+    color:#fff ;
+    text-transform: capitalize;
+    /* max-width: 392px; */
+}
+.partner_attract{
+    font-size: 24px;
+    line-height: 36px;
+    color: #222;
+}
+.How_We_Do{
+font-size: 48px;
+font-weight: 750;
+line-height: 120%;
+padding: 80px;
+
+}
+.Extension h6{
+    font-weight: 700;
+    font-size:32px ;
+    line-height: 120%;
+    padding-bottom: 8px;
+    margin-right: 200px;
+}
+.Extension p{
+    font-weight: 400;
+    font-size:18px ;
+    line-height: 150%;
+    /* padding-bottom: 8px; */
+    max-width: 450px;
+
+}
+.accordion-heade button{
+    padding: 24px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+}
